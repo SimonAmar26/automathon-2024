@@ -17,6 +17,8 @@ import wandb
 from PIL import Image
 import torchvision.transforms.v2 as transforms
 
+print('hellloooooo')
+
 # UTILITIES
 
 def extract_frames(video_path, nb_frames=10, delta=1, timeit=False):
